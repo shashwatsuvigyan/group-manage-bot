@@ -8,8 +8,8 @@ from telegram.ext import ApplicationBuilder, ContextTypes, CommandHandler, Messa
 from motor.motor_asyncio import AsyncIOMotorClient
 
 # --- CONFIGURATION ---
-BOT_TOKEN = "YOUR_BOT_TOKEN_HERE"
-MONGO_URI = "YOUR_MONGODB_CONNECTION_STRING_HERE"
+BOT_TOKEN = "8421190336:AAE-8Enbh8dPDPuirVZvz1IEQWrjN9zO4yA"
+MONGO_URI = "mongodb+srv://shashwat:Te1q2vgQO8MM6iVd@antibanall.yv1qgd6.mongodb.net/?appName=antibanall"
 
 # --- DATABASE SETUP ---
 client = AsyncIOMotorClient(MONGO_URI)
